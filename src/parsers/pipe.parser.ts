@@ -16,7 +16,7 @@ import { ParserInterface } from './parser.interface';
 import { TranslationCollection } from '../utils/translation.collection';
 import { isPathAngularComponent, extractComponentInlineTemplate } from '../utils/utils';
 
-const TRANSLATE_PIPE_NAME = 'translate';
+const TRANSLATE_PIPE_NAME = 'appTranslate';
 
 export class PipeParser implements ParserInterface {
 	public extract(source: string, filePath: string): TranslationCollection | null {

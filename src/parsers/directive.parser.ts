@@ -21,7 +21,7 @@ import { ParserInterface } from './parser.interface';
 import { TranslationCollection } from '../utils/translation.collection';
 import { isPathAngularComponent, extractComponentInlineTemplate } from '../utils/utils';
 
-const TRANSLATE_ATTR_NAME = 'translate';
+const TRANSLATE_ATTR_NAME = 'appTranslate';
 type ElementLike = Element | Template;
 
 export class DirectiveParser implements ParserInterface {
