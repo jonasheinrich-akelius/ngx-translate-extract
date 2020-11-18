@@ -6,7 +6,9 @@
   "typings": "dist/index.d.ts",
   "files": [
     "bin/",
-    "dist/"
+    "dist/",
+    "src/",
+    "tsconfig.json"
   ],
   "bin": {
     "ngx-translate-extract": "bin/cli.js"
